@@ -1,0 +1,12 @@
+{
+    "routes": [
+      {
+        "method": "GET",
+        "path": "/admin",
+        "handler": "Admin.serveAdminPanel",
+        "config": {
+          "policies": ["plugins::users-permissions.isAuthenticated"]
+        }
+      }
+    ]
+  }
