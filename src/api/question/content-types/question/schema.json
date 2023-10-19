@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "questions",
+  "info": {
+    "singularName": "question",
+    "pluralName": "questions",
+    "displayName": "question"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "course_id": {
+      "type": "string"
+    },
+    "lessonID": {
+      "type": "string"
+    },
+    "question": {
+      "type": "text"
+    },
+    "wrong_answer_1": {
+      "type": "text"
+    },
+    "wrong_answer_2": {
+      "type": "text"
+    },
+    "wrong_answer_3": {
+      "type": "text"
+    },
+    "correct_answer_1": {
+      "type": "text"
+    },
+    "quiz": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::quiz.quiz",
+      "inversedBy": "questions"
+    }
+  }
+}

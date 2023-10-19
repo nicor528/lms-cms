@@ -1,0 +1,2 @@
+ http://localhost:1337/admin
+ npm run develop

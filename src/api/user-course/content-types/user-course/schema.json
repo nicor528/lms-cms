@@ -1,0 +1,55 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_courses",
+  "info": {
+    "singularName": "user-course",
+    "pluralName": "user-courses",
+    "displayName": "user_course",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "userID": {
+      "type": "string"
+    },
+    "courseID": {
+      "type": "string"
+    },
+    "lesson1": {
+      "type": "boolean"
+    },
+    "lesson2": {
+      "type": "boolean"
+    },
+    "lesson3": {
+      "type": "boolean"
+    },
+    "lesson4": {
+      "type": "boolean"
+    },
+    "lesson5": {
+      "type": "boolean"
+    },
+    "lesson6": {
+      "type": "boolean"
+    },
+    "lesson7": {
+      "type": "boolean"
+    },
+    "lesson8": {
+      "type": "boolean"
+    },
+    "lesson9": {
+      "type": "boolean"
+    },
+    "lesson10": {
+      "type": "boolean"
+    },
+    "finish": {
+      "type": "boolean"
+    }
+  }
+}
